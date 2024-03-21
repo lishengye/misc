@@ -1,2 +1,17 @@
+shell:
 ZSH_THEME="af-magic"
 plugins=(z git zsh-syntax-highlighting zsh-autosuggestions colorize docker kubectl fzf-zsh-plugin)
+kubens
+kubectx
+
+vscode:
+remote ssh
+c/c++ cmaketools
+clang-format
+material icon theme
+one dark pro theme
+git blame
+docker
+peacock
+go
+clangd
