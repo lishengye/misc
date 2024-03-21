@@ -12,6 +12,7 @@ material icon theme
 one dark pro theme
 git blame
 docker
+kubenetes
 peacock
 go
 clangd
