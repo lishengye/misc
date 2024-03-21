@@ -1,0 +1,57 @@
+{
+    "remote.SSH.remotePlatform": {
+        "9.134.9.1": "linux",
+        "1.12.46.89": "linux"
+    },
+    "editor.fontSize": 17,
+    "terminal.integrated.shell.linux": "/usr/local/bin/zsh",
+    "terminal.integrated.fontSize": 16,
+    "go.testFlags": [
+        "--count=1",
+        "-v"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.automationProfile.linux": {},
+    "terminal.integrated.profiles.linux": {
+
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "debug.javascript.defaultRuntimeExecutable": {
+        "pwa-node": "node"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "clangd.arguments": [
+        "--compile-commands-dir=/root/data/cell/out"
+    ],
+    "[proto3]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "editor.inlayHints.enabled": "off",
+    "C_Cpp.files.exclude": {
+        "**/.vscode": true,
+        "**/.vs": true
+    },
+    "material-icon-theme.folders.theme": "classic",
+    "peacock.affectActivityBar": false,
+    "peacock.affectTitleBar": false
+}
